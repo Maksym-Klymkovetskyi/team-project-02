@@ -1,0 +1,150 @@
+.reviews {
+    /* text-align: center; */
+    padding: 100px;
+    /* background-color: #fff; */
+}
+
+.reviews-title {
+    margin-bottom: 24px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    /* margin-left: 0;
+    margin-right: 0; */
+    padding-left: 0;
+    
+}
+
+.reviews-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.review {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 32px 34px;
+    margin: 0px;
+    text-align: center;
+   
+}
+
+.review-photo {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.review-title-name {
+    margin: 8px 0;
+    background: #fbfbfb;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.review-title-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+}
+
+/* ---------------------*/
+@media (min-width: 320px) and (max-width: 374px) {
+    .reviews-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews {
+        padding: 60px;
+         }
+    .review {
+        max-width: 100%;
+    }
+
+    .review-2 {
+        display: block;
+    }
+
+    .review-3 {
+        display: block;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .reviews-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews{
+        padding: 60px;
+    }
+    .review {
+        max-width: 70%;
+    }
+
+    .review-2 {
+        display: none;
+    }
+
+    .review-3 {
+        display: none;
+    }
+}
+
+/* --------------- */
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .reviews-list {
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .reviews {
+       padding: 80px;
+         }
+    .review {
+        max-width: 45%;
+
+    }
+
+    .review-3 {
+        display: none;
+    }
+
+    .reviews-title {
+
+        text-align: left;
+    }
+}
+
+/* ---------------------- */
+
+@media (min-width: 1280px) {
+    .reviews {
+            padding: 100px;
+        }
+    .review {
+        max-width: 300px;
+    }
+}
