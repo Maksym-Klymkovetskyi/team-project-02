@@ -1,0 +1,96 @@
+.section-your-story {
+
+}
+
+.container-your-story {
+
+    background: #0c0c0c;
+
+}
+
+
+
+.your-story-backdrop {
+    padding-left: 28px;
+    padding-top: 60px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../img/70bg-mobil1x.png)
+}
+@media (min-resolution: 192dpi) {
+    .your-story-backdrop {
+        background-image:
+            url(../img/70bg-mobil2x.png);
+    }
+}
+
+.advertisement-title {
+font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 28px;
+
+
+}
+
+.span-your-story {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-btn {
+font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        width: 160px;
+        height: 48px;
+        background-color: transparent;
+        margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+.section-your-story{
+        padding-top: 0;
+    }
+.your-story-backdrop {
+    padding: 80px 64px 0 64px;
+        background-image: url(../img/70bg-tablet1x.png)
+}
+.advertisement-title{
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 32px;
+}
+.advertisement-btn{
+    margin-bottom: 80px;
+}
+
+@media (min-resolution: 192dpi) {
+    .your-story-backdrop {
+        background-image:
+            url(../img/70bg-tablet2x.png);
+    }
+}
+
+}
+
+@media screen and (min-width: 1280px){
+    .your-story-backdrop{
+        background-image : url(../img/70bg-desktop1x.png);
+        padding-top: 83px;
+        padding-bottom: 83px;
+        padding-left: 80px;
+        display: flex;
+        gap: 140px;
+    }
+        .advertisement-title{
+            max-width: 690px;
+        }
+}

@@ -1,7 +1,7 @@
 section {
     background: #fbfbfb;
-    padding: 60px 0;
-    position: relative;
+    padding: 60px 0 0 0;
+    
 
 }
 
@@ -13,7 +13,7 @@ ul {
 
 .hero-container {
 
-
+position: relative;
 
 }
 
@@ -65,8 +65,9 @@ ul {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #0c0c0c;
-    top: 320px;
+    top: 258px;
     right: 20px;
+    margin: auto;
 
 
 }
@@ -102,7 +103,7 @@ ul {
     stroke: #fbfbfb;
     position: absolute;
     left: 20px;
-    top: 294px;
+    top: 230px;
 }
 
 .john {
@@ -111,7 +112,7 @@ ul {
     stroke: #fbfbfb;
     position: absolute;
     left: 52px;
-    top: 294px;
+    top: 230px;
 }
 
 .anastasia {
@@ -120,7 +121,7 @@ ul {
     stroke: #fbfbfb;
     position: absolute;
     left: 84px;
-    top: 294px;
+    top: 230px;
 }
 
 
@@ -147,7 +148,7 @@ ul {
     }
 
     .link-hero_and_footer {
-        top: 320px;
+        top: 245px;
         right: 32px;
         font-size: 20px;
         line-height: 100%;
@@ -155,17 +156,17 @@ ul {
     }
 
     .victoria {
-        top: 80px;
+        top: 10px;
         left: 600px;
     }
 
     .john {
-        top: 80px;
+        top: 10px;
         left: 641px;
     }
 
     .anastasia {
-        top: 80px;
+        top: 10px;
         left: 680px;
     }
 
@@ -186,7 +187,7 @@ ul {
     }
 
     .link-hero_and_footer {
-        top: 329px;
+        top: 248px;
         right: 65px;
         
     }
